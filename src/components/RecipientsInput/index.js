@@ -251,6 +251,7 @@ RecipientsInput.propTypes = {
     entityType: PropTypes.string.isRequired,
     phoneType: PropTypes.string.isRequired,
     phoneNumber: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
   })).isRequired,
   recipients: PropTypes.arrayOf(PropTypes.shape({
     phoneNumber: PropTypes.string.isRequired,

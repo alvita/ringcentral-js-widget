@@ -173,6 +173,7 @@ ComposeTextPanel.propTypes = {
     entityType: PropTypes.string.isRequired,
     phoneType: PropTypes.string.isRequired,
     phoneNumber: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
   })).isRequired,
   currentLocale: PropTypes.string.isRequired,
   updateSenderNumber: PropTypes.func.isRequired,
